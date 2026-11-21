@@ -28,13 +28,13 @@
         <section class="Formulario">
             <img src="../img/contacto.png" alt="Macetas de fibra de coco">
 
-            <form action="mailto:info@e-maorganicos.com.mx" method="post">
+            <form action="../php/guardar_contacto.php" method="post">
                 <p>Nombre <font color="red">*</font>: <input type="text" name="nombre" size="30" placeholder="Escribe tu nombre" required></p>
                 <p>Correo <font color="red">*</font>: <input type="email" name="correo" size="30" placeholder="Escribe tu correo" required></p>
                 <p>Mensaje <font color="red">*</font>:<br>
                 <textarea name="mensaje" rows="10" cols="40" placeholder="Escribe tu mensaje" required></textarea></p>
                 <p><input type="checkbox" name="privacidad" required> He leído y acepto la política de privacidad.</p>
-                <button class="BotonEnviar">Enviar</button>
+                <button type="submit" class="BotonEnviar">Enviar</button>
                 <p class="Atencion"><b>Atención:</b> Los campos marcados con <font color="red">*</font> son obligatorios.</p>
             </form>
         </section>
