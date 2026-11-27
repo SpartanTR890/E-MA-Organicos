@@ -102,9 +102,10 @@ h1{
     padding: 10px;
     position: relative;   
 }
-.Carrito{
-    flex-wrap: wrap;
-    overflow: auto;
+.Carrito{                 /* NUEVO (reemplaza al .Carrito viejo si había uno) */
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 .navp a{
     color: white;
