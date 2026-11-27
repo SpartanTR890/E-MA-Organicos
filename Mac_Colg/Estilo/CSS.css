@@ -85,10 +85,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.Carrito{
-    flex-wrap: wrap;
-    overflow: auto;
-}
 .Logo{
     width: 12%;
     height: auto;
@@ -104,9 +100,9 @@ h1{
     background-color: #1f5f3b;
     text-align: center;
     padding: 10px;
-    position: relative;   /* NUEVO */
+    position: relative;   
 }
-.Carrito{                 /* NUEVO (reemplaza al .Carrito viejo si había uno) */
+.Carrito{                 
     position: absolute;
     right: 20px;
     top: 10px;
@@ -188,7 +184,7 @@ h1{
     .Nombre{ font-size: 22px; padding-left: 0; }   /* titulo mas chico */
     .Logo{ width: 20%; }                            /* logo mas grande */
     .navp a, .navprod a{ padding: 8px 10px; }       /* menu mas compacto */
-    .Carrito{ position: static; }                   /* Carrito deja de encimarse */
+    .Carrito{ position: static; transform: none; }                  /* Carrito deja de encimarse */
     .Tarjetafoot{ margin: 20px 0; max-width: 100%; height: auto; } /* tarjeta del pie cabe */
     .TituloProductos, .TituloNosotros{ margin: 10px 10px 0; }  /* menos margen lateral */
     .Productos, .Nosotros{ margin: 0 10px 10px; padding: 10px; }
