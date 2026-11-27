@@ -102,10 +102,11 @@ h1{
     padding: 10px;
     position: relative;   
 }
-.Carrito{                 
+.Carrito{
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .navp a{
     color: white;
