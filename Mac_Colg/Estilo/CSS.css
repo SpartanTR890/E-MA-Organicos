@@ -103,10 +103,8 @@ h1{
     position: relative;   
 }
 .Carrito{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    flex-wrap: wrap;
+    overflow: auto;
 }
 .navp a{
     color: white;
@@ -185,7 +183,7 @@ h1{
     .Nombre{ font-size: 22px; padding-left: 0; }   /* titulo mas chico */
     .Logo{ width: 20%; }                            /* logo mas grande */
     .navp a, .navprod a{ padding: 8px 10px; }       /* menu mas compacto */
-    .Carrito{ position: static; transform: none; }                  /* Carrito deja de encimarse */
+    .Carrito{ position: static; }                  /* Carrito deja de encimarse */
     .Tarjetafoot{ margin: 20px 0; max-width: 100%; height: auto; } /* tarjeta del pie cabe */
     .TituloProductos, .TituloNosotros{ margin: 10px 10px 0; }  /* menos margen lateral */
     .Productos, .Nosotros{ margin: 0 10px 10px; padding: 10px; }
